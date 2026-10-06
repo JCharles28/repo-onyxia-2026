@@ -1,0 +1,17 @@
+[project]
+name = "repo-onyxia-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "j-mchangama-ece", email = "jeancharles.mchangama@edu.ece.fr" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+repo-onyxia-2026 = "repo_onyxia_2026:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
